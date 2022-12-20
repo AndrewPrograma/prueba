@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+.contenedor{
+    background-image: url('navidad.jpg');
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+p{
+    font-size: 1.5cm;
+    font-weight: bolder;
+    color: rgb(10, 240, 2);
+    border-color: yellow;
+    padding: 15%;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+    color: rgb(81, 61, 211);
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
